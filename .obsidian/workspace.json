@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "区块链/测试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ec0986012b0a7f95",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f6c2778e3c31909c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "测试"
             }
           }
         ]
@@ -176,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -186,6 +171,19 @@
   },
   "active": "bdb2e4dc4e6ad937",
   "lastOpenFiles": [
-    "Welcome.md"
+    "images/区块链/测试",
+    "images/区块链",
+    "images/区块链/测试/IMG-20250225140339808.png",
+    "images",
+    "images/Pasted image 20250225140112.png",
+    "images",
+    "Pasted image 20250225135817.png",
+    "区块链/测试.md",
+    "Welcome.md",
+    "算法数据结构",
+    "金融支付",
+    "游戏开发",
+    "Golang",
+    "区块链"
   ]
 }
