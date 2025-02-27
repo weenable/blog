@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/文件夹1/文章1.md",
+                "file": "content/posts/文件夹2/文章2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文章1"
+              "title": "文章2"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,19 +182,19 @@
   },
   "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
+    "content/posts/文件夹1/文章1.md",
+    "content/posts/文件夹2/文章2.md",
+    "content/posts/文件夹2",
     "public/posts/文件夹1/文章1/index.html",
     "public/posts/文件夹1/文章1",
     "public/posts/文件夹1/untitled/index.html",
     "public/posts/文件夹1/untitled",
     "public/posts/文件夹1",
     "content/posts/test1.md",
-    "content/posts/文件夹1/文章1.md",
     "content/posts/文件夹1",
     "public/posts/page/1/index.html",
     "public/posts/test1/index.html",
     "public/posts/test/index.html",
-    "public/posts/page/1",
-    "public/posts/test1",
     "public/images/测试文章2/IMG-20250227121411810.png",
     "public/images/测试文章1/IMG-20250227121426299.png",
     "content/posts/test.md",
