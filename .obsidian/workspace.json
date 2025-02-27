@@ -150,14 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of 测试文章3"
             }
+          },
+          {
+            "id": "0ed7546e88fbc193",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,10 +177,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "9fb9ed84c0bb31a7",
+  "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
     "content/posts/测试文章1.md",
     "content/posts/测试文章3.md",

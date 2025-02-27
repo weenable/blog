@@ -34,3 +34,10 @@ url = "/categories"
 [markup]
 [markup.highlight]
 style = 'algol'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # 允许 HTML（兼容 Obsidian）
+  [markup.tableOfContents]
+    startLevel = 2
