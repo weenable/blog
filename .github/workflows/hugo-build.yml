@@ -21,7 +21,7 @@ jobs:
           sudo apt-get install -y hugo  # 安装 Hugo（如果没有自带）
 
       - name: Build the site
-        run: hugo --minify  # 执行 Hugo 构建并启用 minify
+        run: hugo
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4  # 部署到 GitHub Pages
