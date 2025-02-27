@@ -1,0 +1,32 @@
+name: Hugo Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # 监听 main 分支的 push 事件
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # 使用最新版本的 Ubuntu
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # 拉取仓库代码
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2  # 设置 Hugo 环境
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y hugo  # 安装 Hugo（如果没有自带）
+
+      - name: Build the site
+        run: hugo --minify  # 执行 Hugo 构建并启用 minify
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4  # 部署到 GitHub Pages
+        with:
+          branch: gh-pages  # 部署到 gh-pages 分支
+          folder: public    # 部署的文件夹（默认为 Hugo 构建生成的 public 文件夹）
+          token: ${{ secrets.GITHUB_TOKEN }}  # 自动使用 GitHub token 提交
+
