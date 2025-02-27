@@ -1,0 +1,36 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Ween's Blog"
+theme = 'typo'
+
+[params]
+description = "Ween's Blog"
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I am an Chinese Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval
+"""
+
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2006-01-02'
+breadcrumbs = true
+
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "categories"
+url = "/categories"
+
+[markup]
+[markup.highlight]
+style = 'algol'
