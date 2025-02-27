@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "7bdda3aecdb59f95",
+    "id": "908847ad74329876",
     "type": "split",
     "children": [
       {
-        "id": "d01649ed89f868ca",
+        "id": "36a326cd9187018a",
         "type": "tabs",
         "children": [
           {
-            "id": "04c75b0cdb76d4f3",
+            "id": "c2cb0dde2b302a33",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/测试文章1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "测试文章1"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4d8ea62eb2d1ddbe",
+    "id": "3f8484a826263a6e",
     "type": "split",
     "children": [
       {
-        "id": "bc14f659558a6388",
+        "id": "ac5071c67c85f0e3",
         "type": "tabs",
         "children": [
           {
-            "id": "994ab396114db08b",
+            "id": "9fb9ed84c0bb31a7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "da2c7436312f7ed8",
+            "id": "195ec662c675b43b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "dad4bddcde6c17a4",
+            "id": "811aae8aaab71212",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "2ed99f05b9bdfc9c",
+    "id": "d162a6eac271a7f7",
     "type": "split",
     "children": [
       {
-        "id": "6ea222c27f64ba3e",
+        "id": "b9b6e0c643273310",
         "type": "tabs",
         "children": [
           {
-            "id": "03110fb4b3df36ca",
+            "id": "962390caf97cb21c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/测试cate/测试文章2.md",
+                "file": "content/posts/测试文章1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 测试文章2"
+              "title": "Backlinks for 测试文章1"
             }
           },
           {
-            "id": "7e26798249aed68f",
+            "id": "170ba6c6ff45d556",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/测试cate/测试文章2.md",
+                "file": "content/posts/测试文章1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 测试文章2"
+              "title": "Outgoing links from 测试文章1"
             }
           },
           {
-            "id": "9b5166266f33262f",
+            "id": "dddba7365d0a4aba",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,18 +137,18 @@
             }
           },
           {
-            "id": "a4124a5cccdfb798",
+            "id": "bd90ebcbb3b3c851",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/测试cate/测试文章2.md",
+                "file": "content/posts/测试文章1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 测试文章2"
+              "title": "Outline of 测试文章1"
             }
           }
         ]
@@ -163,26 +167,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "yet-another-obsidian-synchronizer:YAOS": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04c75b0cdb76d4f3",
+  "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
-    "posts/测试文章1.md",
-    "posts/Untitled.md",
-    "posts/测试cate/测试文章2.md",
-    "templates/default.md.md",
-    "images/测试文章2",
-    "images/测试文章2/IMG-20250227120236877.png",
-    "posts/测试文章.md",
-    "images/测试文章",
-    "posts/测试cate",
-    "images/测试文章.md",
-    "images/测试文章/IMG-20250227120219507.png",
-    "posts/测试文章",
-    "posts/测试文章/IMG-20250227120008304.png",
-    "templates",
-    "images",
-    "posts"
+    "content/posts/测试文章1.md"
   ]
 }
