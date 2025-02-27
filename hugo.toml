@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://weenable.github.io/'
 languageCode = 'en-us'
 title = "Ween's Blog"
 theme = 'typo'
@@ -14,7 +14,7 @@ I am interested in a range of topics, including algorithms, distributed systems,
 paginationSize = 100
 listSummaries = true
 listDateFormat = '2006-01-02'
-breadcrumbs = true
+#breadcrumbs = true
 
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
