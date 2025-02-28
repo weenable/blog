@@ -19,8 +19,6 @@ listDateFormat = '2006-01-02'
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
-imagePath = "images/"
-
 
 [[params.menu]]
 name = "home"
@@ -37,8 +35,5 @@ url = "/categories"
 [markup]
 [markup.highlight]
 style = 'algol'
-[markup.goldmark]
-  [markup.goldmark.renderer]
-  unsafe = true # 允许 HTML（兼容 Obsidian）
 [markup.tableOfContents]
   startLevel = 2
