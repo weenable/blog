@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/文件夹2/文章2.md",
+                "file": "content/posts/文件夹1/文章1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文章2"
+              "title": "文章1"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
-    "content/posts/文件夹1/文章1.md",
     "content/posts/文件夹2/文章2.md",
+    "content/posts/文件夹1/文章1.md",
     "content/posts/文件夹2",
     "public/posts/文件夹1/文章1/index.html",
     "public/posts/文件夹1/文章1",
