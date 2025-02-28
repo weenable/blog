@@ -22,6 +22,7 @@ jobs:
 
       - name: Build the site
         run: hugo
+	run: ls -alh public/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4  # 部署到 GitHub Pages
