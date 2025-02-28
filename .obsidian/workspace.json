@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/文件夹4/文章5.md",
+                "file": "templates/default.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文章5"
+              "title": "default.md"
             }
           }
         ]
@@ -173,12 +173,12 @@
   },
   "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
+    "content/posts/文件夹4/文章5.md",
     "assets/images/文章5",
     "assets/images",
     "assets/images/文章5/IMG-20250228145838794.png",
     "Pasted image 20250228145650.png",
     "content/posts/文件夹4/Untitled.md",
-    "content/posts/文件夹4/文章5.md",
     "image.png",
     "static/images/文章5/IMG-20250228142928570.png",
     "static/images/文章5",
@@ -194,7 +194,6 @@
     "public/tags/page",
     "public/tags/index.xml",
     "public/tags/index.html",
-    "public/tags",
     "public/favicon-32x32.png",
     "public/apple-touch-icon.png",
     "public/images/测试文章2/IMG-20250227121411810.png",
