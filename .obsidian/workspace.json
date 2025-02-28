@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archetypes/default.md",
+                "file": "content/posts/文件夹4/文章5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default"
+              "title": "文章5"
             }
           }
         ]
@@ -171,8 +171,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9fb9ed84c0bb31a7",
+  "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
+    "Pasted image 20250228141907.png",
+    "content/posts/文件夹4/测试4.md",
+    "content/posts/文件夹4/文章5.md",
+    "content/posts/文件夹1/文章1.md",
+    "content/posts/文件夹4",
+    "content/posts/文件夹3/文章3.md",
+    "archetypes/default.md",
     "public/index.xml",
     "public/tags/page/1/index.html",
     "public/tags/page/1",
@@ -182,18 +189,14 @@
     "public/tags",
     "public/sitemap.xml",
     "public/404.html",
-    "public/categories/page/1/index.html",
-    "public/categories/page/1",
     "public/favicon-32x32.png",
     "public/apple-touch-icon.png",
     "public/images/测试文章2/IMG-20250227121411810.png",
     "public/images/测试文章1/IMG-20250227121426299.png",
     "public/android-chrome-192x192.png",
     "public/favicon-16x16.png",
-    "content/posts/文件夹3/文章3.md",
     "content/posts/test.md",
     "content/posts/文件夹2/文章2.md",
-    "content/posts/文件夹1/文章1.md",
     "content/posts/test1.md",
     "content/posts/测试文章3.md",
     "content/posts/测试文章1.md",
