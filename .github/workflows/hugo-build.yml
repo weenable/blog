@@ -27,7 +27,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           external_repository: weenable/weenable.github.io  # 部署到的仓库
           publish_dir: ./public    # Hugo 生成的静态文件目录
           keep_files: false        # 是否保留历史文件
