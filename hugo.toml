@@ -19,6 +19,9 @@ listDateFormat = '2006-01-02'
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
+imagePath = "images/"
+
+
 [[params.menu]]
 name = "home"
 url = "/"
