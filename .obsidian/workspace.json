@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/default.md.md",
+                "file": "content/posts/文件夹4/文章5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default.md"
+              "title": "文章5"
             }
           }
         ]
@@ -173,6 +173,9 @@
   },
   "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
+    "assets/images/文章5/IMG-20250228151145053.png",
+    "content/posts/文件夹4/测试4.md",
+    "templates/default.md.md",
     "content/posts/文件夹4/文章5.md",
     "assets/images/文章5",
     "assets/images",
@@ -183,7 +186,6 @@
     "static/images/文章5/IMG-20250228142928570.png",
     "static/images/文章5",
     "Pasted image 20250228141907.png",
-    "content/posts/文件夹4/测试4.md",
     "content/posts/文件夹1/文章1.md",
     "content/posts/文件夹4",
     "content/posts/文件夹3/文章3.md",
