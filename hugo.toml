@@ -37,3 +37,7 @@ url = "/categories"
 style = 'algol'
 [markup.tableOfContents]
   startLevel = 2
+
+[[module.mounts]]
+  source = "images"
+  target = "static/images"
