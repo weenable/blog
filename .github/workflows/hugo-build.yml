@@ -22,7 +22,7 @@ jobs:
           extended: true           # 如果需要 extended 版本
 
       - name: Build
-        run: hugo --minify --gc     # 构建命令，添加优化参数
+        run: hugo     # 构建命令，添加优化参数
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

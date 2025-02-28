@@ -4,7 +4,23 @@
     "saveAttE": "obsFolder",
     "attachmentPath": "assets/images/${notename}",
     "attachFormat": "IMG-${date}",
-    "type": "GLOBAL"
+    "type": "GLOBAL",
+    "extensionOverride": [
+      {
+        "extension": "",
+        "attachmentRoot": "",
+        "saveAttE": "obsFolder",
+        "attachmentPath": "assets/images/${notename}",
+        "attachFormat": "IMG-${date}"
+      },
+      {
+        "extension": "",
+        "attachmentRoot": "",
+        "saveAttE": "obsFolder",
+        "attachmentPath": "assets/images/${notename}",
+        "attachFormat": "IMG-${date}"
+      }
+    ]
   },
   "dateFormat": "YYYYMMDDHHmmssSSS",
   "excludeExtensionPattern": "",
