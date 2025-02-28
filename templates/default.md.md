@@ -5,7 +5,7 @@ toc: true
 readTime: true
 autonumber: true
 math: true
-categorys: []
+categories: []
 showTags: false
 hideBackToTop: false
 ---
