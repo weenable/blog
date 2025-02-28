@@ -8,7 +8,7 @@ description = "Ween's Blog"
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
 I am an Chinese Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval
+✨I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval
 """
 
 paginationSize = 100
