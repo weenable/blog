@@ -1,35 +1,36 @@
-name: Deploy Hugo Site to GitHub Pages
+name: GitHub Pages Deploy
 
 on:
   push:
     branches:
-      - main  # 或 master，取决于你的默认分支
+      - main  # 触发自动部署的分支
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: true  # 如果使用了 Git 子模块
-          fetch-depth: 0    # 获取完整的 Git 历史
+          submodules: recursive  # 如果使用子模块需要这个参数
 
-      - name: Set up Hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'  # 或指定版本，如 '0.88.1'
-          extended: true          # 如果使用了 Hugo Extended 版本
+          hugo-version: '0.124.1'  # 指定 Hugo 版本
+          extended: true           # 如果需要 extended 版本
 
-      - name: Build the site
-        run: hugo --minify
+      - name: Build
+        run: hugo --minify --gc     # 构建命令，添加优化参数
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          external_repository: weenable/weenable.github.io
-          publish_dir: ./public
-          publish_branch: main  # 或 gh-pages，取决于你的设置
-
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}  # 推荐使用部署密钥
+          # 或者使用 personal token:
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: weenable/weenable.github.io  # 部署到的仓库
+          publish_dir: ./public    # Hugo 生成的静态文件目录
+          keep_files: false        # 是否保留历史文件
+          commit_message: ${{ github.event.head_commit.message }}  # 使用原始提交信息
