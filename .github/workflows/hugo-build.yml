@@ -1,32 +1,35 @@
-name: Hugo Build and Deploy
+name: Deploy Hugo Site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # 监听 main 分支的 push 事件
+      - main  # 或 master，取决于你的默认分支
 
 jobs:
-  build:
-    runs-on: ubuntu-latest  # 使用最新版本的 Ubuntu
+  deploy:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2  # 拉取仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # 如果使用了 Git 子模块
+          fetch-depth: 0    # 获取完整的 Git 历史
 
       - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2  # 设置 Hugo 环境
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y hugo  # 安装 Hugo（如果没有自带）
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'  # 或指定版本，如 '0.88.1'
+          extended: true          # 如果使用了 Hugo Extended 版本
 
       - name: Build the site
-        run: hugo
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4  # 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages  # 部署到 gh-pages 分支
-          folder: public    # 部署的文件夹（默认为 Hugo 构建生成的 public 文件夹）
-          token: ${{ secrets.GITHUB_TOKEN }}  # 自动使用 GitHub token 提交
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          external_repository: weenable/weenable.github.io
+          publish_dir: ./public
+          publish_branch: main  # 或 gh-pages，取决于你的设置
 
