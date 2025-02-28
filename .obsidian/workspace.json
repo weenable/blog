@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/文件夹3/文章3.md",
+                "file": "archetypes/default.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文章3"
+              "title": "default"
             }
           }
         ]
@@ -168,29 +168,33 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "c2cb0dde2b302a33",
+  "active": "9fb9ed84c0bb31a7",
   "lastOpenFiles": [
-    "content/posts/文件夹3/文章3.md",
-    "content/posts/test.md",
-    "content/posts/文件夹3",
-    "content/posts/文件夹2/文章2.md",
-    "content/posts/文件夹1/文章1.md",
-    "content/posts/文件夹2",
-    "public/posts/文件夹1/文章1/index.html",
-    "public/posts/文件夹1/文章1",
-    "public/posts/文件夹1/untitled/index.html",
-    "public/posts/文件夹1/untitled",
-    "public/posts/文件夹1",
-    "content/posts/test1.md",
-    "content/posts/文件夹1",
-    "public/posts/page/1/index.html",
-    "public/posts/test1/index.html",
+    "public/index.xml",
+    "public/categories/page/1/index.html",
+    "public/categories/page/1",
+    "public/categories/page",
+    "public/categories/index.xml",
+    "public/categories/index.html",
+    "public/categories",
+    "public/page/1/index.html",
+    "public/page/1",
+    "public/page",
+    "public/index.html",
+    "public/favicon-32x32.png",
+    "public/apple-touch-icon.png",
     "public/images/测试文章2/IMG-20250227121411810.png",
     "public/images/测试文章1/IMG-20250227121426299.png",
+    "public/favicon-16x16.png",
+    "public/android-chrome-192x192.png",
+    "content/posts/文件夹3/文章3.md",
+    "content/posts/test.md",
+    "content/posts/文件夹2/文章2.md",
+    "content/posts/文件夹1/文章1.md",
+    "content/posts/test1.md",
     "content/posts/测试文章3.md",
     "content/posts/测试文章1.md",
     "static/images/测试文章1/IMG-20250227121426299.png",
