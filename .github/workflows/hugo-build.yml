@@ -21,8 +21,9 @@ jobs:
           sudo apt-get install -y hugo  # 安装 Hugo（如果没有自带）
 
       - name: Build the site
-        run: hugo
-	run: ls -alh public/
+        run: | 
+	  hugo
+	  ls -alh public/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4  # 部署到 GitHub Pages
