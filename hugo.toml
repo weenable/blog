@@ -11,8 +11,8 @@ I am an Chinese Software Engineer with a strong foundation in computer science a
 ✨I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval
 """
 
-paginationSize = 100
-listSummaries = true
+paginationSize = 5
+#listSummaries = true
 listDateFormat = '2006-01-02'
 #breadcrumbs = true
 
