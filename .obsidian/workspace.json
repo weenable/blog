@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/算法数据结构/跳表和实现.md",
+                "file": "content/posts/架构/在线支付系统设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "跳表和实现"
+              "title": "在线支付系统设计"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/算法数据结构/跳表和实现.md",
+                "file": "content/posts/架构/在线支付系统设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 跳表和实现"
+              "title": "Outline of 在线支付系统设计"
             }
           }
         ],
@@ -172,6 +172,13 @@
   },
   "active": "c2cb0dde2b302a33",
   "lastOpenFiles": [
+    "images/在线支付系统设计/image-20254301031138.png",
+    "images/${fliename}",
+    "images/${fliename}/image-2025430959698.png",
+    "content/posts/架构/基于redis的分布式锁实现.md",
+    "content/posts/架构/分布式脑裂.md",
+    "archetypes/default.md",
+    "content/posts/算法数据结构/跳表和实现.md",
     "images/image-202543009608.png",
     "images/跳表和实现/image-2025228725321.png",
     "content/posts/算法数据结构/布隆过滤器算法实现.md",
@@ -183,20 +190,14 @@
     "images/image-20254305831915.png",
     "content/posts/game/游戏服务器架构演进.md",
     "templates/default.md.md",
-    "archetypes/default.md",
     "content/posts/算法数据结构/排序算法汇总.md",
     "content/posts/算法数据结构/二分查找算法汇总.md",
     "images/游戏服务器架构演进/image-20252282323894.png",
     "images/游戏服务器架构演进/image-20252282311243.png",
-    "images/游戏服务器架构演进/image-20252282257901.png",
-    "images/游戏服务器架构演进/image-20252282244672.png",
     "images/游戏服务器架构演进",
-    "content/posts/架构/基于redis的分布式锁实现.md",
-    "content/posts/架构/分布式脑裂.md",
     "content/posts/架构/在线支付系统设计.md",
     "images/在线支付系统设计",
     "images/网络游戏同步机制",
-    "content/posts/算法数据结构/跳表和实现.md",
     "content/posts/game",
     "images/跳表和实现",
     "content/posts/算法数据结构/哈希表渐进式Rehash实现.md",
@@ -210,7 +211,6 @@
     "images/P2P核心技术：Kad分布式路由表算法",
     "content/posts/架构",
     "content/posts/金融",
-    "content/posts/算法数据结构",
     "content/posts/文件夹4/文章5.md",
     "content/posts/test.md",
     "content/posts/文件夹4/文章6.md",
