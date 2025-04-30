@@ -19,6 +19,8 @@ listDateFormat = '2006-01-02'
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
+customCSS = ["css/custom.css"]
+
 
 [[params.menu]]
 name = "home"

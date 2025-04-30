@@ -10,7 +10,7 @@
   "disableRenameNotice": false,
   "IsShowCustomPath": true,
   "PasteImageOption": "tocustom",
-  "CustomPath": "images/${filename}",
+  "CustomPath": "images",
   "IsEscapeUriPath": true,
   "IsAddRelativePath": true,
   "IsApplyLocalImage": true,
